@@ -1,0 +1,2 @@
+ARRAY BOOLEAN:C223(LB22;0)
+LISTBOX SET PROPERTY:C1440(*;"LB22";lk single click edit:K53:70;lk yes:K53:69)

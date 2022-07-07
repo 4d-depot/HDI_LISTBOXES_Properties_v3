@@ -1,0 +1,3 @@
+  //OBJECT SET VISIBLE(*;"P20_F1";True)
+
+LISTBOX SET PROPERTY:C1440(*;"LB20";lk display footer:K53:20;lk yes:K53:69)

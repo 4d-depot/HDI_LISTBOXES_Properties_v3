@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_LISTBOXES_Properties_v3" uuid="F9D884388B4A436896C25A1B4617AA9F" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="TEST" uuid="D65372D140DF46D9ADE66AE115AA24AC" id="1">
+		<field name="ID" uuid="B5F05537EBAF4EEE8D25A986F9C6CD9B" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="72A9834671374C9999DAD32FBCD94639" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Value" uuid="0519A827212E4B91B8D1C0D4239CB837" type="6" never_null="true" id="3"/>
+		<field name="Birthday" uuid="A6CE513F9117487D81010DA84E1B430F" type="8" never_null="true" id="4"/>
+		<field name="Comments" uuid="15C7D303A6C94E71A763980DD4FC96AE" type="10" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="B5F05537EBAF4EEE8D25A986F9C6CD9B"/>
+		<table_extra input_form="Input_B" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="18.72265625" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="50CD3ACD53AB4249B29DD4C5E2FBE00D" type="7">
+		<field_ref uuid="B5F05537EBAF4EEE8D25A986F9C6CD9B" name="ID">
+			<table_ref uuid="D65372D140DF46D9ADE66AE115AA24AC" name="TEST"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="HDI_ListboxProperties" structure_file_name="LB_GetSet" data_file_path=":LB_GetSet.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
